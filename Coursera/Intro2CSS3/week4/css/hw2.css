@@ -1,0 +1,126 @@
+body{
+	padding: 10px;
+	margin: 1%;
+}
+header{
+	background-image: url('../imgs/flywheel.jpg');
+	padding: 5px 10px 10px 2px;
+	height: 200px;
+	text-align: center;
+}
+
+nav a{
+	display: inline-block;
+	width: 7%;
+	margin-right: 7%;
+	padding: 15px 5px 15px 5px;
+	background-color: rgba(255,255,255,.35);
+	border-radius: 5%;
+	text-decoration: none;
+	font-size: 18px;
+}
+h1{
+	color: #ffffff;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h2{
+   color: #000000;
+   font-size: 30px;
+}
+
+.right{
+	clear: both;
+	display: inline-block;
+	width: 70%;
+	height: 50px;
+	margin-left: 10px;
+}
+p{
+	font-size: 22px;
+}
+p a{
+	color: #000fff;
+}
+a{
+	color:#000000;
+}
+.active{
+	background-color: rgba(255,255,255,1);
+}	
+a:hover{
+	background-color:#D8D8D8;
+}
+a:focus{
+	background-color: #000fff;	
+	color: #ffffff;
+}
+.left{
+	box-sizing: border-box;
+	height: 100vh;
+}
+
+.left img{
+	width: 200px;
+	height:150px;
+	display: block;
+	margin:0 auto;
+	margin-top: 55px;
+	border: 3px solid #000000;
+
+}
+aside{
+	display: inline-block;
+	width: 250px;	
+	height:800px;
+	background-color: #999900;
+	float: left;
+
+}
+
+table{
+	width: 75%;
+	margin: 0 auto;
+	line-height: 55px;
+	border-spacing: 3px;
+	font-family: Arial,"Times New Roman",serif;
+}
+
+th{
+	color: #ffffff;
+	background: -moz-linear-gradient(bottom,#999900 0%, #558000 100%);
+	background: -webkit-linear-gradient(bottom,#999900 0%, #558000 100%);
+	background: -o-linear-gradient(bottom,#999900 0%, #558000 100%);
+	background: linear-gradient(bottom,#999900 0%, #558000 100%);
+	border-radius: 6px 6px 0 0;	
+	-webkit-border-radius:6px 6px 0 0;
+	border-bottom:4px solid #bfff80	;
+	letter-spacing: 1px;
+
+
+}
+
+th:first-child	{
+	text-align: left;
+	padding-left: 12px;
+}
+tr{
+	text-align: center;
+	background-color: #eeffcc;
+	color:rgb(105,105,105,0.7)
+}
+
+td:first-child{
+	text-align: left;
+	padding-left: 12px;
+
+}
+td{
+	border-radius: 2px;
+	text-shadow: 1px 1px rgba(105,105,105,.55)
+}
+
+tr:hover{
+	color: rgba(0,0,0,1);
+}

@@ -1,0 +1,26 @@
+/*List Item Styling*/ /*Stlying and position*/
+ul{list-style-type: square;}
+
+ul {list-style-position: inside;}
+
+/*Shorthand List Style Property* using both Style and Position at same time*/
+ul {
+  list-style: circle inside;
+}
+ol {
+  list-style: upper-roman;
+}
+/*Inline-Block Displaying List Demo*/
+/*li {
+  display: inline-block;
+  margin: 0 10px;
+}
+*/
+
+/*Floating List
+li {
+  float: left;
+  margin: 0 20px
+}
+*/
+
