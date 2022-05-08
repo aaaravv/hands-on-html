@@ -2,7 +2,7 @@
 
 Hands on HTML5 & CSS3
 
-## Refrences
+## References
 
 -   [ShayHowe](https://learn.shayhowe.com/html-css/)
 -   [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
